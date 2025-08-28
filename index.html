@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Junior | Viajes Internacionales</title>
+  <meta name="description" content="Expres Junior: agencia de viajes internacionales desde Ica. Explora el mundo con nosotros.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="nav">
+      <a href="#home" class="logo">✈️ Express Junior</a>
+      <ul class="menu">
+        <li><a href="#home" class="active">Inicio</a></li>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Home -->
+    <section id="home" class="page active">
+      <h1>Explora el mundo con Express Junior</h1>
+ <p>
+  Vuela desde Ica, Perú hacia destinos internacionales soñados y vive experiencias inolvidables. 
+  No solo te llevamos a conocer los lugares más emblemáticos del mundo, 
+  también te acompañamos como <strong>guías turísticos culturales</strong>, 
+  revalorizando el aprendizaje de cada ciudad, su historia, su gente y sus costumbres. 
+  Convierte cada viaje en una aventura enriquecedora que combina turismo y cultura.
+</p>
+
+      <div style="text-align: center; margin: 40px 0;">
+  <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2400&auto=format&fit=crop" 
+       alt="Paisaje montañoso con colores suaves" 
+       style="width: 100%; height: auto; border-radius: 25px; box-shadow: 0px 8px 22px rgba(0,0,0,0.25);">
+</div>
+
+
+    </section>
+
+    <!-- Destinos -->
+    <section id="destinos" class="page">
+      <h2>Destinos Populares</h2>
+      <div class="cards">
+        <!-- Card Ejemplo -->
+        <div class="card" data-target="ecuador">
+<img loading="lazy" width="1160" height="550" src="https://travelfine.es/wp-content/uploads/2023/04/Que-ver-y-hacer-en-Ecuador.jpg" class="attachment-full size-full wp-image-3024" alt="qué ver en ecuador" srcset="https://travelfine.es/wp-content/uploads/2023/04/Que-ver-y-hacer-en-Ecuador.jpg 1160w, https://travelfine.es/wp-content/uploads/2023/04/Que-ver-y-hacer-en-Ecuador-768x364.jpg 768w" sizes="(max-width: 1160px) 100vw, 1160px">
+<h3>Ecuador</h3>
+<p>Mitad del Mundo y naturaleza única.</p>
+
+        </div>
+        <div class="card" data-target="newyork">
+<img width="1200" height="600" src="https://nyc.eu/wp-content/uploads/2015/07/New_York_City-scaled.jpg" fetchpriority="high" loading="eager" decoding="sync" class="no-lazy attachment-full size-full" alt="New York City" itemprop="image" srcset="https://nyc.eu/wp-content/uploads/2015/07/New_York_City-scaled.jpg 1200w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-900x450.jpg 900w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-768x384.jpg 768w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-450x225.jpg 450w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-300x150.jpg 300w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-1024x512.jpg 1024w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-1536x768.jpg 1536w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-370x185.jpg 370w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-570x285.jpg 570w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-770x385.jpg 770w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-1170x585.jpg 1170w, https://nyc.eu/wp-content/uploads/2015/07/New_York_City-1160x580.jpg 1160w" sizes="(max-width: 1200px) 100vw, 1200px">
+<h3>New York</h3>
+<p>La ciudad que nunca duerme.</p>
+        </div>
+        <div class="card" data-target="machupicchu">
+<img srcset="https://image-tc.galaxy.tf/wijpeg-7ellqz2uqv2l9plk30futx9jr/experiencias-machu-picchu_wide.jpg?crop=0%2C63%2C1200%2C675&amp;width=381 381w,
+                            https://image-tc.galaxy.tf/wijpeg-7ellqz2uqv2l9plk30futx9jr/experiencias-machu-picchu_wide.jpg?crop=0%2C63%2C1200%2C675&amp;width=928 928w,
+                            https://image-tc.galaxy.tf/wijpeg-7ellqz2uqv2l9plk30futx9jr/experiencias-machu-picchu_wide.jpg?crop=0%2C63%2C1200%2C675&amp;width=1140 1140w" sizes="(max-width: 767px) 381px,
+                            (max-width: 1199px) 928px,
+                            (min-width: 1200px) 1140px" src="https://image-tc.galaxy.tf/wijpeg-7ellqz2uqv2l9plk30futx9jr/experiencias-machu-picchu_wide.jpg?crop=0%2C63%2C1200%2C675" alt="">
+          <h3>Machu Picchu</h3>
+          <p>Una maravilla del mundo en Perú.</p>
+        </div>
+        <div class="card" data-target="tokyo">
+        <img sizes="83vw" data-srcset="https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_00000000_240903122054_512x342.jpg 512w,https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_00000000_240903122054_960x640.jpg 960w,https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg 1280w" data-src="https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg" src="https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg" alt="tokio" class="flipboard-image ls-is-cached lazyloaded" width="1280" height="854" data-aspectratio="1280/854" srcset="https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_00000000_240903122054_512x342.jpg 512w,https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_00000000_240903122054_960x640.jpg 960w,https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg 1280w">
+          <h3>Tokio</h3>
+          <p>Tecnología, cultura y tradición.</p>
+        </div>
+        <div class="card" data-target="paris">
+          <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1600&auto=format&fit=crop" alt="París">
+          <h3>París</h3>
+          <p>Ciudad del amor y la moda.</p>
+        </div>
+        <div class="card" data-target="barcelona">
+<img class="img-fluid" loading="lazy" src="https://www.barcelo.com/guia-turismo/wp-content/uploads/que-visitar-en-barcelona-1.jpg" alt="Qué ver en Barcelona: 36 planes esenciales para conocer la ciudad" title="Qué ver en Barcelona: 36 planes esenciales para conocer la ciudad">
+          <h3>Barcelona</h3>
+          <p>Arte, playa y arquitectura única.</p>
+        </div>
+      </div>
+    </section>
+
+<style>
+  .destino-img {
+    width: 400px;   /* tamaño fijo */
+    height: 300px;  /* mismo alto para todas */
+    object-fit: cover; /* recorta sin deformar */
+    border-radius: 15px; /* bordes redondeados */
+    border: 3px solid #ccc; /* marco */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3); /* sombra elegante */
+    display: block;
+    margin: 0 auto 15px auto; /* centrado con espacio abajo */
+  }
+</style>
+
+<!-- ECUADOR -->
+<section id="ecuador" class="page destino">
+  <h2>Ecuador</h2>
+  <div class="contenido-destino">
+    <img class="destino-img" src="https://travelfine.es/wp-content/uploads/2023/04/Que-ver-y-hacer-en-Ecuador.jpg" alt="qué ver en ecuador">
+    <div>
+      <p>
+        Descubre la belleza de Ecuador: recorre Quito, su capital colonial declarada Patrimonio de la Humanidad, 
+        visita la famosa <strong>Mitad del Mundo</strong> donde se cruza la línea ecuatorial, 
+        y maravíllate con las <strong>Islas Galápagos</strong>, un paraíso natural único en el mundo.
+      </p>
+      <ul>
+        <li>Clima variado y agradable durante todo el año</li>
+        <li>Gastronomía tradicional: ceviche, hornado, locro de papa</li>
+        <li>Aventura en volcanes, selvas amazónicas y playas</li>
+      </ul>
+      <button class="btn reservar">Comienza tu viaje ahora</button>
+      <button class="btn regresar">Regresar</button>
+    </div>
+  </div>
+</section>
+
+<!-- NUEVA YORK -->
+<section id="newyork" class="page destino">
+  <h2>Nueva York</h2>
+  <div class="contenido-destino">
+    <img class="destino-img" src="https://nyc.eu/wp-content/uploads/2015/07/New_York_City-scaled.jpg" alt="New York City">
+    <div>
+      <p>
+        La Gran Manzana te espera con sus luces y rascacielos. 
+        Disfruta de <strong>Times Square</strong>, pasea por <strong>Central Park</strong>, 
+        cruza el icónico <strong>Puente de Brooklyn</strong> y maravíllate con la <strong>Estatua de la Libertad</strong>.
+      </p>
+      <ul>
+        <li>Vida nocturna vibrante en Manhattan</li>
+        <li>Gastronomía multicultural: pizzas, bagels, hot dogs</li>
+        <li>Museos de clase mundial como el MET y MoMA</li>
+      </ul>
+      <button class="btn reservar">Comienza tu viaje ahora</button>
+      <button class="btn regresar">Regresar</button>
+    </div>
+  </div>
+</section>
+
+<!-- MACHU PICCHU -->
+<section id="machupicchu" class="page destino">
+  <h2>Machu Picchu</h2>
+  <div class="contenido-destino">
+    <img class="destino-img" src="https://image-tc.galaxy.tf/wijpeg-7ellqz2uqv2l9plk30futx9jr/experiencias-machu-picchu_wide.jpg?crop=0%2C63%2C1200%2C675" alt="Machu Picchu">
+    <div>
+      <p>
+        Vive la magia de <strong>Machu Picchu</strong>, una de las siete maravillas del mundo moderno. 
+        Explora sus templos y terrazas incas, rodeados de montañas y niebla mística en el Valle Sagrado de los Incas.
+      </p>
+      <ul>
+        <li>Patrimonio Cultural y Natural de la Humanidad</li>
+        <li>Senderos de trekking como el Camino Inca</li>
+        <li>Cultura ancestral viva en Cusco y alrededores</li>
+      </ul>      
+      <button class="btn reservar">Comienza tu viaje ahora</button>
+      <button class="btn regresar">Regresar</button>
+    </div>
+  </div>
+</section>
+
+<!-- TOKYO -->
+<section id="tokyo" class="page destino">
+  <h2>Tokyo</h2>
+  <div class="contenido-destino">
+    <img class="destino-img" src="https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg" alt="tokyo">
+    <div>
+      <p>
+        La capital de Japón combina tradición y modernidad. 
+        Visita el <strong>Templo Senso-ji</strong> en Asakusa, pasea por <strong>Shibuya</strong> con su famoso cruce, 
+        y disfruta de la vista desde la <strong>Torre de Tokyo</strong>.
+      </p>
+      <ul>
+        <li>Cultura ancestral en templos y santuarios</li>
+        <li>Tecnología futurista en Akihabara y Shinjuku</li>
+        <li>Gastronomía mundialmente famosa: sushi, ramen, tempura</li>
+      </ul>
+      <button class="btn reservar">Comienza tu viaje ahora</button>
+      <button class="btn regresar">Regresar</button>
+    </div>
+  </div>
+</section>
+
+<!-- PARÍS -->
+<section id="paris" class="page destino">
+  <h2>París</h2>
+  <div class="contenido-destino">
+    <img class="destino-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="París">
+    <div>
+      <p>
+        La ciudad del amor te espera con su arte, cultura y romance. 
+        Admira la <strong>Torre Eiffel</strong>, el <strong>Museo del Louvre</strong>, 
+        y pasea por las orillas del <strong>río Sena</strong>.
+      </p>
+      <ul>
+        <li>Capital mundial del arte y la moda</li>
+        <li>Cultura gastronómica: croissants, vinos, quesos</li>
+        <li>Arquitectura icónica en Notre Dame y Arco del Triunfo</li>
+      </ul>
+      <button class="btn reservar">Comienza tu viaje ahora</button>
+      <button class="btn regresar">Regresar</button>
+    </div>
+  </div>
+</section>
+
+<!-- BARCELONA -->
+<section id="barcelona" class="page destino">
+  <h2>Barcelona</h2>
+  <div class="contenido-destino">
+    <img class="destino-img" src="https://www.barcelo.com/guia-turismo/wp-content/uploads/que-visitar-en-barcelona-1.jpg" alt="Barcelona">
+    <div>
+      <p>
+        Barcelona es una joya del Mediterráneo. 
+        Recorre la <strong>Sagrada Familia</strong> de Gaudí, 
+        pasea por <strong>Las Ramblas</strong> y disfruta de la playa de <strong>Barceloneta</strong>.
+      </p>
+      <ul>
+        <li>Arquitectura modernista única</li>
+        <li>Playas y vida nocturna en la costa catalana</li>
+        <li>Gastronomía mediterránea: tapas y paella</li>
+      </ul>
+      <button class="btn reservar">Comienza tu viaje ahora</button>
+      <button class="btn regresar">Regresar</button>
+    </div>
+  </div>
+</section>
+
+
+<style>
+  .contenido-destino {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .img-redonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+</style>
+
+
+    <!-- Formulario de pago (emerge al reservar) -->
+    <section id="pago" class="page">
+      <h2>Formulario de Pago</h2>
+      <form class="form-pago">
+        <label>Nombre completo:<input type="text" required></label>
+        <label>Email:<input type="email" required></label>
+        <label>Número de pasaporte:<input type="text" required></label>
+        <label>Fecha de viaje:<input type="date" required></label>
+        <button type="submit" class="btn">Proseguir pago</button>
+        <button type="button" class="btn regresar">Regresar</button>
+      </form>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="page">
+      <h2>Sobre Express Junior</h2>
+      <p>Somos una empresa de viajes y guías turísticas con sede en Ica, Perú, comprometida en brindar experiencias únicas que van más allá de un simple recorrido. Nuestro propósito principal no es solo llevar a las personas a conocer nuevos destinos, sino también inspirarlas a aprender de la cultura, la historia y las tradiciones de cada país que visitan. Creemos firmemente que viajar es una de las formas más enriquecedoras de crecer como seres humanos, ya que abre la mente, fomenta la tolerancia y nos conecta con realidades distintas a la nuestra.
+
+En cada experiencia que diseñamos, buscamos combinar seguridad, accesibilidad y atención personalizada. Para nosotros, cada viajero es único, y por eso ofrecemos servicios pensados en las necesidades, expectativas y sueños de quienes confían en nosotros. Nuestro equipo de guías turísticos está altamente capacitado no solo en logística y organización, sino también en transmitir conocimientos, anécdotas y perspectivas culturales que transforman un viaje en una verdadera experiencia de aprendizaje.
+
+Sabemos que recorrer un país implica mucho más que visitar sus principales atractivos. Es descubrir sus sabores, entender sus costumbres, escuchar sus historias y convivir, aunque sea por un breve tiempo, con la esencia de su gente. Por ello, fomentamos un turismo responsable y respetuoso, que valore las expresiones culturales y que motive a nuestros clientes a mirar cada destino con una actitud de aprendizaje y respeto.
+
+Nuestro compromiso es ofrecer a los viajeros la oportunidad de conocer el mundo con una mirada diferente: no solo como turistas, sino como aprendices de culturas diversas. Porque cada viaje representa una puerta hacia el entendimiento, hacia la empatía y hacia el reconocimiento de la riqueza que existe en la diversidad. En Expres Junior, viajar es descubrir, aprender y crecer junto a los demás.</p>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="page">
+  <h2>Contáctanos</h2>
+  <p>
+    Email: <a href="mailto:ExpressJunior@gmail.com">ExpressJunior@gmail.com</a> |
+    Tel: <a href="https://wa.me/51922786349" target="_blank">+51 922 786 349</a>
+  </p>
+  <p>
+    Síguenos:
+    <a href="https://www.instagram.com/elexpressjunior777/" target="_blank">
+    
+    </a>
+    <a href="https://www.tiktok.com/elexpressjunior77"  target="_blank">
+     
+    </a>
+  </p>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Express Junior. Todos los derechos reservados.</p>
+    <a href="easteregg.html">...</a>
+
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
+
